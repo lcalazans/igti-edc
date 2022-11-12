@@ -1,0 +1,6 @@
+/data_raw/*
+*.pdf
+*.ipynb
+*.pem
+/.ipynb_checkpoints/*
+iac/.terraform/*
