@@ -15,6 +15,6 @@ variable "numero_conta" {
 terraform {
   backend "s3" {
     bucket = "terraform-state-igti-139492111061"
-    key = ""
+    key = "/state/terraform.state"
   }
 }
