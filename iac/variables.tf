@@ -10,5 +10,11 @@ variable "ambiente" {
 
 variable "numero_conta" {
     default = "139492111061"
-  
+}
+
+terraform {
+  backend "s3" {
+    bucket = "terraform-state-igti-139492111061"
+    key = ""
+  }
 }
